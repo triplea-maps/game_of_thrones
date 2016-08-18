@@ -1461,7 +1461,7 @@
       <option name="movement" value="1"/>
       <option name="attack" value="4"/>
       <option name="defense" value="2"/>
-      <option name="isTwoHit" value="true"/>
+      <option name="hitPoints" value="2"/>
       <option name="artillerySupportable" value="true"/>
       <option name="transportCost" value="1"/>
     </attachment>
@@ -1488,14 +1488,14 @@
       <option name="movement" value="2"/>
       <option name="attack" value="2"/>
       <option name="defense" value="5"/>
-      <option name="isTwoHit" value="true"/>
+      <option name="hitPoints" value="2"/>
       <option name="transportCost" value="2"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="Troll" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
       <option name="attack" value="2"/>
       <option name="defense" value="2"/>
-      <option name="isTwoHit" value="true"/>
+      <option name="hitPoints" value="2"/>
       <option name="transportCost" value="1"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="Wildling" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -1583,7 +1583,7 @@
     <attachment name="territoryAttachment" attachTo="The Eyrie" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="7"/>
       <option name="capital" value="Arryn"/>
-      <option name="victoryCity" value="true"/>
+      <option name="victoryCity" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Three Sisters" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
@@ -1603,7 +1603,7 @@
     <attachment name="territoryAttachment" attachTo="Kings Landing" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="9"/>
       <option name="capital" value="Baratheon"/>
-      <option name="victoryCity" value="true"/>
+      <option name="victoryCity" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Duskendale" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="3"/>
@@ -1665,7 +1665,7 @@
     <attachment name="territoryAttachment" attachTo="Vaes Dothrak" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="7"/>
       <option name="capital" value="Dothraki"/>
-      <option name="victoryCity" value="true"/>
+      <option name="victoryCity" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Andalos" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
@@ -1709,7 +1709,7 @@
     <attachment name="territoryAttachment" attachTo="Braavos" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="6"/>
       <option name="capital" value="FreeCities"/>
-      <option name="victoryCity" value="true"/>
+      <option name="victoryCity" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="The Ax" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
@@ -1735,7 +1735,7 @@
     <attachment name="territoryAttachment" attachTo="The Milkwater" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="4"/>
       <option name="capital" value="Freefolk"/>
-      <option name="victoryCity" value="true"/>
+      <option name="victoryCity" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Craster's Keep" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
@@ -1755,7 +1755,7 @@
     <attachment name="territoryAttachment" attachTo="Great Wyk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="5"/>
       <option name="capital" value="Greyjoy"/>
-      <option name="victoryCity" value="true"/>
+      <option name="victoryCity" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Banefort" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
@@ -1766,7 +1766,7 @@
     <attachment name="territoryAttachment" attachTo="Casterly Rock" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
       <option name="capital" value="Lannister"/>
-      <option name="victoryCity" value="true"/>
+      <option name="victoryCity" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Ashemark" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
@@ -1810,7 +1810,7 @@
     <attachment name="territoryAttachment" attachTo="Sunspear" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="5"/>
       <option name="capital" value="Martell"/>
-      <option name="victoryCity" value="true"/>
+      <option name="victoryCity" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Vaith" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
@@ -1887,7 +1887,7 @@
     <attachment name="territoryAttachment" attachTo="Winterfell" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="6"/>
       <option name="capital" value="Stark"/>
-      <option name="victoryCity" value="true"/>
+      <option name="victoryCity" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="South Neck Swamps" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
@@ -1904,7 +1904,7 @@
     <attachment name="territoryAttachment" attachTo="Meereen" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="7"/>
       <option name="capital" value="Targaryen"/>
-      <option name="victoryCity" value="true"/>
+      <option name="victoryCity" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="The Lands of the Long Summer" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
@@ -1951,7 +1951,7 @@
     <attachment name="territoryAttachment" attachTo="Riverrun" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="7"/>
       <option name="capital" value="Tully"/>
-      <option name="victoryCity" value="true"/>
+      <option name="victoryCity" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Lord Halloway's Town" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
@@ -2001,7 +2001,7 @@
     <attachment name="territoryAttachment" attachTo="Highgarden" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="6"/>
       <option name="capital" value="Tyrell"/>
-      <option name="victoryCity" value="true"/>
+      <option name="victoryCity" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Three Towers" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="3"/>
