@@ -971,7 +971,7 @@
     <unit name="WaterDancer"/>
     <unit name="Giant"/>
     <unit name="Mammoth"/>
-    <unit name="Troll"/>
+    <unit name="Giant"/>
     <unit name="Wildling"/>
     <unit name="Longship"/>
     <unit name="Greatship"/>
@@ -1196,9 +1196,9 @@
       <cost resource="PUs" quantity="10"/>
       <result resourceOrUnit="Mammoth" quantity="1"/>
     </productionRule>
-    <productionRule name="buyTroll">
+    <productionRule name="buyGiant">
       <cost resource="PUs" quantity="7"/>
-      <result resourceOrUnit="Troll" quantity="1"/>
+      <result resourceOrUnit="Giant" quantity="1"/>
     </productionRule>
     <productionRule name="buyWildling">
       <cost resource="PUs" quantity="9"/>
@@ -1279,7 +1279,7 @@
       <frontierRules name="buyTrebuchet"/>
       <frontierRules name="buyGiant"/>
       <frontierRules name="buyMammoth"/>
-      <frontierRules name="buyTroll"/>
+      <frontierRules name="buyGiant"/>
       <frontierRules name="buyWildling"/>
     </productionFrontier>
     <productionFrontier name="GreyjoyFrontier">
@@ -1491,7 +1491,7 @@
       <option name="hitPoints" value="2"/>
       <option name="transportCost" value="2"/>
     </attachment>
-    <attachment name="unitAttachment" attachTo="Troll" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+    <attachment name="unitAttachment" attachTo="Giant" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
       <option name="attack" value="2"/>
       <option name="defense" value="2"/>
@@ -2388,18 +2388,18 @@
       <unitPlacement unitType="Archer" territory="Hardhome" quantity="1" owner="Freefolk"/>
       <unitPlacement unitType="Wildling" territory="Hardhome" quantity="3" owner="Freefolk"/>
       <unitPlacement unitType="Archer" territory="The Frostfangs" quantity="1" owner="Freefolk"/>
-      <unitPlacement unitType="Troll" territory="The Frostfangs" quantity="2" owner="Freefolk"/>
+      <unitPlacement unitType="Giant" territory="The Frostfangs" quantity="2" owner="Freefolk"/>
       <unitPlacement unitType="Wildling" territory="The Frostfangs" quantity="5" owner="Freefolk"/>
       <unitPlacement unitType="Archer" territory="The Frozen Shore" quantity="1" owner="Freefolk"/>
       <unitPlacement unitType="Wildling" territory="The Frozen Shore" quantity="1" owner="Freefolk"/>
       <unitPlacement unitType="Archer" territory="The Haunted Forest" quantity="2" owner="Freefolk"/>
-      <unitPlacement unitType="Troll" territory="The Haunted Forest" quantity="2" owner="Freefolk"/>
+      <unitPlacement unitType="Giant" territory="The Haunted Forest" quantity="2" owner="Freefolk"/>
       <unitPlacement unitType="Wildling" territory="The Haunted Forest" quantity="6" owner="Freefolk"/>
       <unitPlacement unitType="Archer" territory="The Milkwater" quantity="3" owner="Freefolk"/>
       <unitPlacement unitType="Castle" territory="The Milkwater" quantity="1" owner="Freefolk"/>
       <unitPlacement unitType="Giant" territory="The Milkwater" quantity="2" owner="Freefolk"/>
       <unitPlacement unitType="Mammoth" territory="The Milkwater" quantity="2" owner="Freefolk"/>
-      <unitPlacement unitType="Troll" territory="The Milkwater" quantity="4" owner="Freefolk"/>
+      <unitPlacement unitType="Giant" territory="The Milkwater" quantity="4" owner="Freefolk"/>
       <unitPlacement unitType="Wildling" territory="The Milkwater" quantity="9" owner="Freefolk"/>
       <unitPlacement unitType="Archer" territory="Craster's Keep" quantity="1" owner="Freefolk"/>
       <unitPlacement unitType="Wildling" territory="Craster's Keep" quantity="1" owner="Freefolk"/>
@@ -2648,8 +2648,8 @@
       <unitPlacement unitType="Unsullied" territory="Gogossos" quantity="1"/>
       <unitPlacement unitType="Archer" territory="Ibben" quantity="2"/>
       <unitPlacement unitType="Sellsword" territory="Ibben" quantity="2"/>
-      <unitPlacement unitType="Troll" territory="Ibben" quantity="1"/>
-      <unitPlacement unitType="Troll" territory="Gogossos" quantity="1"/>
+      <unitPlacement unitType="Giant" territory="Ibben" quantity="1"/>
+      <unitPlacement unitType="Giant" territory="Gogossos" quantity="1"/>
       <unitPlacement unitType="Unsullied" territory="Oros" quantity="2"/>
       <unitPlacement unitType="Raft" territory="Ironmans Bay" quantity="1" owner="Greyjoy"/>
       <unitPlacement unitType="Longship" territory="Ironmans Bay" quantity="1" owner="Greyjoy"/>
@@ -2661,7 +2661,7 @@
       <unitPlacement unitType="Unsullied" territory="South Khyzai Pass" quantity="5"/>
       <unitPlacement unitType="Sellsword" territory="Yeen" quantity="2"/>
       <unitPlacement unitType="Unsullied" territory="Yeen" quantity="3"/>
-      <unitPlacement unitType="Troll" territory="Yeen" quantity="3"/>
+      <unitPlacement unitType="Giant" territory="Yeen" quantity="3"/>
       <unitPlacement unitType="Galley" territory="Port of Oldtown" quantity="1" owner="Tyrell"/>
       <unitPlacement unitType="Raft" territory="Port of Oldtown" quantity="2" owner="Tyrell"/>
       <unitPlacement unitType="Unsullied" territory="Isle of Cedars" quantity="2"/>
